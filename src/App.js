@@ -4,6 +4,7 @@ import Layout from './pages/theme/Layout';
 import Faq from "./pages/Faq";
 import { Contact } from "./pages/Contact";
 import Usermanagement from "./pages/Usermanagement";
+import AddUser from "./pages/Adduser";
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route path ="/"element={<Layout/>}>   
           <Route path ="/contact"element={<Contact/>}/>
           <Route path ="/usermanagement"element={<Usermanagement/>}/>
+          <Route path="/user-management/add" element={<AddUser/>} />
           <Route path ="/faq"element={<Faq/>}/>
         </Route>
       </Routes>

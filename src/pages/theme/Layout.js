@@ -1,16 +1,15 @@
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
+// import Usermanagement from "../Usermanagement";
 const Layout =() => {
     return(
     <div>
-       <h2> </h2>
-        <p></p>
-        <p></p>
-
+      
         <Header/>
         <Sidebar/>
-        <footer/>
+        {/* <Usermanagement/> */}
+        <Footer/>
     </div>) ;
 }
 export default Layout; 
